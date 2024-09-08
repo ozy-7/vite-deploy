@@ -1,3 +1,4 @@
+//@ts-ignore
 import Card from './Card';
 import steamLogo from './assets/Steam.png';
 import eaLogo from './assets/EA.webp';
