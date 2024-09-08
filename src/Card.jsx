@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Card({ logo, title, color, link, username }) {
+function Card({ logo, title, color, link, text }) {
   const cardStyle = {
     backgroundColor: color,
     padding: '8px',
@@ -32,7 +32,7 @@ function Card({ logo, title, color, link, username }) {
     margin: '0',
   };
 
-  const usernameStyle = {
+  const textStyle = {
     fontSize: '.75rem',
     color: '#dcdcdc',
     margin: '2px 0 0 0',
@@ -42,7 +42,7 @@ function Card({ logo, title, color, link, username }) {
     <div style={cardStyle} className="card">
       <img src={logo} alt={`${title} logo`} style={imageStyle} />
       <h2 style={titleStyle}>{title}</h2>
-      {username && <p style={usernameStyle}>{username}</p>}
+      {text && <p style={textStyle}>{text}</p>}
     </div>
   );
 

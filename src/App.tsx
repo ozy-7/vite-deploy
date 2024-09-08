@@ -2,25 +2,38 @@
 import Card from './Card';
 import steamLogo from './assets/Steam.png';
 import eaLogo from './assets/EA.webp';
+import instagramLogo from './assets/Instagram.png'
 import './App.css';
 
 function App() {
     return (
         <div className="card-container">
+
+            <Card
+                logo={instagramLogo}
+                title="Instagram"
+                color="rgba(141,12,86,255)"
+                link="https://www.instagram.com/ozanceng/"
+                text=" "
+            />
+
             <Card 
                 logo={steamLogo} 
                 title="Steam" 
-                color="#ff6347" 
+                color="rgba(17,50,93,255)" 
                 link="https://steamcommunity.com/id/ozzy1327"
-                username=" "
+                text=" "
 
             />
             <Card 
                 logo={eaLogo} 
                 title="EA" 
-                color="#4682b4" 
-                username="ozy360"
+                color="rgba(182,56,78,255)" 
+                text="ozy360"
             />
+
+
+
         </div>
     );
 }
