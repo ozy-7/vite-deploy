@@ -39,14 +39,14 @@ body {
   }
 }
 
-/* App.css */
+
 .card-container {
-  position: absolute;      /* Position relative to the screen */
-  top: 10px;               /* Position 10px from the top */
-  right: 10px;             /* Position 10px from the right */
-  display: flex;           /* Keep using flex to align cards */
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
   justify-content: flex-start;
-  gap: 10px;               /* Small gap between cards */
+  gap: 10px;
 }
 
 .card {
@@ -77,13 +77,3 @@ body {
 .read-the-docs {
   color: #888;
 }
-
-
-
-
-
-
-
-
-/* App.css */
-

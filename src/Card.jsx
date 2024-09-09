@@ -8,7 +8,7 @@ function Card({ logo, title, color, link, text }) {
     textAlign: 'center',
     color: 'white',
     fontFamily: 'League Spartan, sans-serif',
-    margin: '0',
+    margin: '1px',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
@@ -18,7 +18,7 @@ function Card({ logo, title, color, link, text }) {
     textDecoration: 'none',
     minWidth: 'fit-content',
     minHeight: 'fit-content',
-    transition: 'transform 0.3s ease, box-shadow 0.3s ease',  // Added smooth transition for transform and shadow
+    transition: 'transform 0.3s ease, box-shadow 0.3s ease',
   };
 
   const imageStyle = {

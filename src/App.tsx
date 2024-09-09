@@ -7,14 +7,22 @@ import './App.css';
 
 function App() {
     return (
-        <div className="card-container">
+        <div className="card-container"
+        style={{
+            display: 'flex',
+            gap: '10px',
+            justifyContent: 'center',
+            alignItems: 'center',
+            flexWrap: 'wrap',
+        }}
+        >
 
             <Card
                 logo={instagramLogo}
                 title="Instagram"
                 color="rgba(141,12,86,255)"
                 link="https://www.instagram.com/ozanceng/"
-                text=" "
+                text="      "
             />
 
             <Card 
@@ -22,7 +30,7 @@ function App() {
                 title="Steam" 
                 color="rgba(17,50,93,255)" 
                 link="https://steamcommunity.com/id/ozzy1327"
-                text=" "
+                text="      "
 
             />
             <Card 
