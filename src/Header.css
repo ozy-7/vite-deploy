@@ -1,0 +1,29 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: rgb(51, 174, 57);
+  }
+
+  .logo h1 {
+    font-size: 1.5rem;
+  }
+  
+  .nav ul {
+    list-style-type:square;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav ul li a {
+    color: rgb(51, 168, 51);
+    text-decoration:none;
+  }
+  
+  .nav ul li a:hover {
+    text-decoration: underline;
+  }

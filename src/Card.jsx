@@ -8,17 +8,17 @@ function Card({ logo, title, color, link, text }) {
     textAlign: 'center',
     color: 'white',
     fontFamily: 'League Spartan, sans-serif',
-    margin: '1px',
+    margin: '0 auto',
     display: 'flex',
-    flexDirection: 'column',
+    flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
     height: '50px',
-    width: '60px',
+    width: '100%',
     textDecoration: 'none',
     minWidth: 'fit-content',
     minHeight: 'fit-content',
-    transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+    /*transition: 'transform 0.3s ease, box-shadow 0.3s ease',*/
   };
 
   const imageStyle = {
