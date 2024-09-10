@@ -1,6 +1,6 @@
-import React from "react";
 import './Header.css';
-import CardsContainer from './CardsContainer';
+//@ts-ignore
+import CardsContainer from './CardsContainer.jsx';
 
 function Header() {
   return (

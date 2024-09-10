@@ -6,7 +6,7 @@ import eaLogo from './assets/EA.webp';
 import instagramLogo from './assets/Instagram.png';
 
 function CardsContainer() {
-  const containerStyle = {
+  const cardsContainerStyle = {
     display: 'flex',
     flexDirection: 'column', // Align items in a row
     justifyContent: 'center', // Center items horizontally
@@ -18,7 +18,7 @@ function CardsContainer() {
     //flexWrap: 'wrap' // Allow items to wrap to the next line if necessary
   };
 
-  const cardsContainerStyle = {
+  const containerStyle = {
     display: 'flex',
     flexDirection: 'column', // Cards in a column
     justifyContent: 'flex-start', // Align them to the start of the container

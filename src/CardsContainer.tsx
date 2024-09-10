@@ -1,7 +1,7 @@
-import React from "react";
 import './Header.css';
 //@ts-ignore
-import Card from './Card';
+
+/*import Card from './Card';
 import steamLogo from './assets/Steam.png';
 import eaLogo from './assets/EA.webp';
 import instagramLogo from './assets/Instagram.png'
@@ -34,3 +34,4 @@ function CardsContainer () {
     </div>
     );
 }
+    */
